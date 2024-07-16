@@ -1,0 +1,47 @@
+.navbar-nav {
+    width: 100%;
+}
+.navbar-nav .nav-item {
+    flex: 1;
+    text-align: center;
+}
+.hero-video {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.hero-video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust overlay color and opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero-video .overlay p {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+   .card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: larger;
+    color: hotpink;
+   }  
+   .card-body {
+    background-color: rgba(255, 182, 193, 0.2); /* Light pink background color */
+}
