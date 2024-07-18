@@ -38,10 +38,47 @@
     margin-bottom: 1rem;
 }
    .card-title{
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: larger;
-    color: hotpink;
+    font-family: monospace; 
+    font-size:x-large;
+    
    }  
    .card-body {
     background-color: rgba(255, 182, 193, 0.2); /* Light pink background color */
+    
 }
+.img-fluid{
+    object-fit: cover;
+    height: 250px;
+    
+    padding-left: 50px;
+    background-color: rgba(255, 182, 193, 0.2);
+  }
+  /* Ensure the image takes up the full width and height of its container */
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Adjust the padding and margin of the card and its elements */
+.card-body {
+    padding: 1rem; /* Adjust padding as necessary */
+}
+
+.card {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Remove any padding/margin around the columns */
+.row.g-0 > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Ensure the container has no extra padding */
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+    
